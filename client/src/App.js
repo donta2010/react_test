@@ -17,7 +17,7 @@ function App() {
       <Route path="/books/:id" component={Detail} />
       <Route exact path="/books" component={Books} />
       <Route exact path="/" component={Books} />
-      <Route path="/:id" children={<Child />} />
+      {/* <Route path="/:id" children={<Child />} /> */}
       <Route path="*" component={NoMatch} />
       {/* <Route path="*">
             <NoMatch />
